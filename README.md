@@ -16,7 +16,7 @@ This particular project may make use of up to 30+ html pages! The user will answ
 *Objectives:*
 
 - [] Event Listeners for each instance to navigate to the following webpage and for it to track answers 
-- [] Creating at least 20 questions and 10 different personalites based off questions chosen
+- [] Creating at least 20 questions and (up to) 7 different personalites based off questions chosen
 - [] Logic for selecting personalities based off of answers chosen
 - [] A progress bar at the top letting player know how much further they are along in the quiz
 
