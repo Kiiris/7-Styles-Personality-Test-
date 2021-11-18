@@ -1,6 +1,6 @@
 # Calvin Menyfield's 2nd Project Plan 
 
-[Trello](https://trello.com/b/zuRs0iur/project-mvps)
+[My Trello!](https://trello.com/b/zuRs0iur/project-mvps)
 
 *Awaiting approval from 3 different ideas*
 
