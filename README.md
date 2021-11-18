@@ -34,7 +34,7 @@ I was thinking of creating a hangman game. My css would have 3 areas. A center w
 *Objectives:*
 
 - [] Many combitions of words/phrases that correspond to a prompt on the panel which can be called randomly by the a reset button
-- [] The words should update based on the letters clicked and the panel guesses should indicate to the player how many guesses they have remaining
+- [] The words should update based on the letters clicked and the panel should indicate to the player how many guesses they have remaining
 - [] If a player has won the game there should be a message indicating they won. Likewise if they lost they should no longer be able to continue playing
 
 *Posible Ideas:*
@@ -54,11 +54,11 @@ Finally, I wanted to make a personality quiz of my choosing. This particular pro
 *Objectives:*
 
 - [] Event Listeners for each instance to navigate to the following webpage and for it to track answers 
-- [] Beautiful professional design! I wanted to work on making good styling for this particular project
+- [] Creating at least 20 questions and 10 different personalites based off questions chosen
 - [] Logic for selecting personalities based off of answers chosen
 - [] A progress bar at the top letting player know how much further they are along in the quiz
 
 *Posible Ideas:*
 - [] Dark mode event listener which will affect ALL html pages 
 - [] Hover effect on answers that will make the design look more stylized
-- [] Links at the end that allow user to share their personality on social media!
+- [] Links at the end of results and beggining of a page that allow user to share their personality on social media!
