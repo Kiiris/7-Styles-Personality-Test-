@@ -9,7 +9,7 @@
 Goals and Potential Ideas
 ***
 
-This is my possibly my most complicated plan (in theory). I would start by making an 8x8 board with alternating colors using css. Pieces would be set up inside and I would create event listeners for pieces with div classes that has logic for how they are able to move. This game will be two players. Pieces should be able to double jump, turn into Kings, and the game ends when either one side is unable to move, or all of the opponents pieces are captured.
+I think this is my most ambitious plan. I would start by making an 8x8 board with alternating colors using css. Pieces would be set up inside and I would create event listeners for pieces with div classes that has logic for how they are able to move. This game will be two players. Pieces should be able to double jump, turn into Kings, and the game ends when either one side is unable to move, or all of the opponents pieces are captured.
 
 *Objectives:*
 
