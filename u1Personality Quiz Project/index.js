@@ -259,10 +259,6 @@ const plusSlides = (n) => {
   showSlides((slideIndex += n));
 };
 
-const currentSlide = (n) => {
-  showSlides((slideIndex = n));
-};
-
 function showSlides(n) {
   if (n > slides.length) {
     slideIndex = 1;
@@ -281,3 +277,7 @@ function showSlides(n) {
   number.innerText = 'Question ' + slideIndex;
   display.innerText = funWords[Math.floor(Math.random() * funWords.length)];
 }
+
+const currentSlide = (n) => {
+  showSlides((slideIndex = n));
+};
