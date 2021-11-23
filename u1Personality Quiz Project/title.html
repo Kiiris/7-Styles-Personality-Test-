@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+<body>
+
+<h1 style="text-align:center;"></h1>
+<span>Which of the 7 Styles are you?</span>
+<section class="layout">
+   <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <section class="questions">
+      <button class="aq1" id="one" onclick="aural(2); plusSlides(1); questions();">Listening to music</button>
+      <button class="aq1" id="two" onclick=" verbal(2); plusSlides(1); questions();">Writing or reading a story</button>
+      <button class="aq1" onclick="social(2); plusSlides(1); questions();">Going out with friends</button>
+      <button class="aq1" onclick="solitary(2); plusSlides(1); questions();">Sleeping</button>
+      </section>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <section class="questions">
+      <button class="aq2" onclick=" verbal(2); plusSlides(1); questions();">Write notes in code while taking a lesson</button>
+      <button class="aq2" onclick=" social(2); plusSlides(1); questions();">Asking others and collaborative efforts</button>
+      <button class="aq2" onclick=" social(1); aural(1); plusSlides(1); questions();">Ask as many questions as possible during class</button>
+      <button class="aq2" onclick=" logical(2); visual(1); plusSlides(1); questions();">Experimenting with various Javascript code</button>
+      </section>
+  </div>
+
+  <div class="mySlides">
+   
+    <div class="numbertext"></div>
+    <section class="questions">
+      <button class="aq3" onclick=" visual(2); plusSlides(1); questions();">Diagram or outline the goal of what you're teaching</button>
+      <button class="aq3" onclick=" verbal(1); logical(2); plusSlides(1); questions();">Create an analogy to help them understand better</button>
+      <button class="aq3" onclick=" solitary(2); verbal(1); plusSlides(1); questions();">Direct them to several sources they can read about it</button>
+      <button class="aq3" onclick=" social(2); verbal(1); plusSlides(1); questions();">Coach them through an example step by step </button>
+      </section>
+    </div>
+
+  <div class="mySlides">
+
+    <div class="numbertext"></div>
+    <section class="questions">
+      <button class="aq4" onclick="physical(2); social(2); plusSlides(1); questions();">Adventurous and playful</button>
+      <button class="aq4" onclick="social(3); plusSlides(1); questions();">Social and fun</button>
+      <button class="aq4" onclick="solitary(1); logical(2);plusSlides(1); questions();">Inquisitive and curious</button>
+      <button class="aq4" onclick="solitary(3); visual(1);plusSlides(1); questions();">Shy and quiet</button>
+      </section>
+    </div>
+
+<div class="mySlides">
+    <div class="numbertext"></div>
+    <section class="questions">
+        <button class="aq5" onclick=" aural(2); plusSlides(1); questions();">Headphones to listen to music in your free time</button>
+        <button class="aq5" onclick=" social(2); plusSlides(1); questions();">A photo of a loved one or pet</button>
+        <button class="aq5" onclick="logical(2); verbal(1); visual(1); plusSlides(1); questions();">A planner or binder to keep you organized</button>
+        <button class="aq5" onclick=" visual(2); physical(1); plusSlides(1); questions();">Something cozy and pretty to look at</button>
+    </section>
+</div>
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <section class="questions">
+        <button class="aq6" onclick="verbal(1); logical(2); plusSlides(1); questions();">Historical fictions and documentaries</button>
+        <button class="aq6" onclick=" visual(2); solitary(2); plusSlides(1); questions();">Fantasy and sci-fi</button>
+        <button class="aq6" onclick=" physical(2); visual(1); plusSlides(1); questions();">Thrillers and crime</button>
+        <button class="aq6" onclick="social(2); solitary(1); plusSlides(1); questions();">Romance and drama</button>
+        </section>
+    </div>
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <section class="questions">
+      <button class="aq7" onclick=" social(3); verbal(1); plusSlides(1); questions();">Social media apps</button>
+      <button class="aq7" onclick=" aural (3); visual(2); plusSlides(1); questions();">Spotify or Youtube</button>
+      <button class="aq7" onclick=" solitary(2); logical(2); visual(1);plusSlides(1); questions();">Mobile games</button>
+      <button class="aq7" onclick=" physical(2); verbal(1);plusSlides(1); questions();">I don't use my phone that often</button>
+      </section>
+</div>
+<div class="mySlides">
+  <div class="numbertext"></div>
+  <section class="questions">
+    <button class="aq8" onclick=" social(2); plusSlides(1); questions();">Ask teachers or peers for assistance</button>
+    <button class="aq8" onclick=" solitary(2); plusSlides(1); questions();">Withdraw from the problem and try again later</button>
+    <button class="aq8" onclick=" visual(2); logical(1); plusSlides(1); questions();">Break it down to as many steps as possible</button>
+    <button class="aq8" onclick=" visual(2); logical(2);plusSlides(1); questions();">Experiment and guess until you reach a solution</button>
+    </section>
+  </div>
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <section class="questions">
+      <button class="aq9" onclick=" solitary(2); aural(2); plusSlides(1); questions();">Focusing in a loud and disruptive environment</button>
+      <button class="aq9" onclick="social(2); plusSlides(1); questions();">Solving complicated problems without any support</button>
+      <button class="aq9" onclick=" physical(2); visual(1); plusSlides(1); questions();">Being required to remember many things on demand</button>
+      <button class="aq9" onclick="solitary(2);plusSlides(1); questions();">Not having enough time for yourself to relax</button>
+      </section>
+  </div>
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <section class="questions">
+      <button class="aq10" onclick="visual(3); plusSlides(1); questions();">You're very creative and talented</button>
+      <button class="aq10" onclick="logical(3); verbal(2);plusSlides(1); questions();">You're very knowledgeable and intelligent</button>
+      <button class="aq10" onclick=" physical(3);plusSlides(1); questions();">You're very energetic and fun</button>
+      <button class="aq10" onclick=" social(2); solitary(1);plusSlides(1); questions();">You're very gracious and polite</button>
+      </section>
+    </div>
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <section class="questions">
+        <button class="aq11" onclick="social(3);plusSlides(1); questions();">Going out to a club or bar</button>
+        <button class="aq11" onclick="aural(2); visual(2); plusSlides(1); questions();">Go out to see a movie or concert</button>
+        <button class="aq11" onclick="logical(2); visual(2); solitary(2); plusSlides(1); questions();">Meeting up somewhere to play games</button>
+        <button class="aq11" onclick=" physical(3);plusSlides(1); questions();">Going out to play sports or go skating</button>
+        </section>
+      </div>
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <section class="questions">
+          <button class="aq12" onclick="physical(2); social(1); plusSlides(1); questions();">Going to new and exciting places</button>
+          <button class="aq12" onclick=" solitary(3); plusSlides(1); questions();">Dealing with difficult challenges alone</button>
+          <button class="aq12" onclick="solitary(2); logical(2); plusSlides(1); questions();">Discovering great you never knew about</button>
+          <button class="aq12" onclick=" social(3); plusSlides(1); questions();">Time spent with loved ones and friends</button>
+          </section>
+      </div>
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <section class="questions">
+          <button class="aq13" onclick=" visual(3); logical(1);plusSlides(1); questions();">Flexbox Froggy and Grid Garden</button>
+          <button class="aq13" onclick=" aural(3); plusSlides(1); questions();">Zoom recordings</button>
+          <button class="aq13" onclick=" logical(2); visual(2); plusSlides(1); questions();">Access to class Wiki and repositories</button>
+          <button class="aq13" onclick=" social(2); verbal(1); plusSlides(1); questions();">Slack and TA hours</button>
+          </section>
+      </div>
+      <div class="mySlides">
+        <div class="numbertext"></div>
+        <section class="questions">
+          <button class="aq14" onclick=" visual(2); aural(1); plusSlides(1); questions();">Make the best use of effects and cinematography</button>
+          <button class="aq14" onclick=" social(2); verbal(1);plusSlides(1); questions();">Build the most dynamic and robust cast</button>
+          <button class="aq14" onclick=" aural(3); plusSlides(1); questions();">Use of sound design to build a memorable score</button>
+          <button class="aq14" onclick=" verbal(3); plusSlides(1); questions();">Create an engaging and captivating storyline</button>
+          </section>
+          </div>
+          <div class="mySlides">
+            <div class="numbertext"></div>
+            <section class="questions">
+              <button class="aq15" onclick=" social(2); aural(2); plusSlides(1); questions();">Talking to friends on the phone or social media</button>
+              <button class="aq15" onclick="visual(2); aural(2); plusSlides(1); questions();">Binge watching Netflix series or Youtube</button>
+              <button class="aq15" onclick=" verbal(3); logical(1);plusSlides(1); questions();">Reading articles or browsing Reddit</button>
+              <button class="aq15" onclick=" logical(2); solitary(2); plusSlides(1); questions();">Playing video games</button>
+              </section>
+            </div>
+            <div class="mySlides">
+              <div class="numbertext"></div>
+              <section class="questions">
+                <button class="aq15" onclick=" logical(3); solitary(2); plusSlides(1); questions();">I've always wanted to be a developer!</button>
+                <button class="aq15" onclick="logical(2); visual(2); plusSlides(1); questions();">Graphic or UX designer</button>
+                <button class="aq15" onclick=" verbal(3); social(2); plusSlides(1); questions();">Attorney or paralegal</button>
+                <button class="aq15" onclick="social(2); verbal(2); logical(1); plusSlides(1); questions();">Business owner or self starter</button>
+                </section>
+              </div>
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <section class="questions">
+                  <button class="aq15" onclick=" logical(3); plusSlides(1); questions();">Finding patterns or themes in day to day life </button>
+                  <button class="aq15" onclick=" verbal(3); social(2); plusSlides(1); questions();">Making jokes, being witty or using sarcasm</button>
+                  <button class="aq15" onclick=" social(3); plusSlides(1); questions();">Empathizing with others and being considerate</button>
+                  <button class="aq15" onclick=" solitary(3); plusSlides(1); questions();">Understanding who you are and practing self-care</button>
+                  </section>
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext"></div>
+                  <section class="questions">
+                    <button class="aq15" onclick="physical(3); plusSlides(1); questions();">Supportive gestures like touching and hand holding</button>
+                    <button class="aq15" onclick=" verbal(3); social(1); plusSlides(1); questions();">Use words of encouragement or give pep talks</button>
+                    <button class="aq15" onclick=" solitary(3); plusSlides(1); questions();">Stay out of the room so that you can focus better</button>
+                    <button class="aq15" onclick=" verbal(1); physical(1); social(1); solitary(1); plusSlides(1); questions();">All of the above</button> 
+                    </section>
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext"></div>
+                    <section class="questions">
+                      <button class="aq15" onclick="logical(3); plusSlides(1); questions();">Math</button>
+                      <button class="aq15" onclick="logical(2); verbal(1); visual(1); plusSlides(1); questions();">Science</button>
+                      <button class="aq15" onclick="verbal(3); social(2); plusSlides(1); questions();">English</button>
+                      <button class="aq15" onclick=" verbal(2); social(2); aural(1); plusSlides(1); questions();">Social studies</button>
+                      </section>
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext"></div>
+                      <section class="questions">
+                        <button class="aq15" onclick=" visual(3); logical(1); results();">Intro to DOM</button>
+                        <button class="aq15" onclick="logical(3); solitary(1); results();">JS Data Types</button>
+                        <button class="aq15" onclick=" physical(2); logical(2); results();">JS Events</button>
+                        <button class="aq15" onclick=" social(2); visual(2); verbal(2); results();">Box Model Practice</button>
+                        </section>
+                      </div>
+                  
+</div>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <section class="box">If you had a full day to relax, you rather would spend your free time...</section>
+  <article style="font-size: 2rem;">Share on Socials!<div class="socialM"><ul class="socials"> 
+    <li><a href="https://twitter.com/intent/tweet?text=Find%20out%20your%20learning%20style%20by%20taking%20the%20quiz%20on%20file%3A///Users/calvin/ga_seir/unit1/homework/u1Personality%2520Quiz%2520Project/title.html"><img src="data:image/jpeg;base64,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" alt="Share on Twitter" width = "75%" height = "65%"></a></li>
+<li><a href="https://www.linkedin.com/shareArticle?mini=true&url=&title=Learn%20Your%20Type!&summary=Find%20out%20your%20learning%20style%20by%20taking%20the%20quiz%20on%20file%3A///Users/calvin/ga_seir/unit1/homework/u1Personality%2520Quiz%2520Project/title.html&source="><img src="https://www.seekpng.com/png/detail/8-84419_linkedin-logo-png-icon-linkedin-logo-png.png" alt= "Share on LinkedIn!" width="20%" height="15%"></a></li>
+<li><a href="https://www.facebook.com/sharer/sharer.php?u=file%3A///Users/calvin/ga_seir/unit1/homework/u1Personality%2520Quiz%2520Project/title.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQztGEsDMh-NHvANk711h_7qAJtqVhZNiVuqg&usqp=CAU" alt= "Share on Facebook!" width="60%" height="55%"></a></li>
+<!-- <li><a href="mailto:?body=Hey!%20Check%20out%20this%20brand%20new%20quiz%20by%20Calvin!%20Find%20out%20your%20learning%20style%20at%3A%20file%3A///Users/calvin/ga_seir/unit1/homework/u1Personality%2520Quiz%2520Project/title.html"><img src="https://1000logos.net/wp-content/uploads/2021/05/Gmail-logo.png" alt="Share on Gmail!" width="20%" height="15%"></a></li> -->
+  </ul></div></article>
+</div>
+  <article><div class="Display"><h2></h2></2></div></article>
+</section>
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

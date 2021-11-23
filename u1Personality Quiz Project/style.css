@@ -1,0 +1,163 @@
+body {
+  font-weight: 100;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/37/549/93/wood-high-resolution-wallpaper-preview.jpg');
+  font-family: 'Abril Fatface', cursive;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 
+} 
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+    
+  }
+
+  article {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+
+.aq1, .aq2, .aq3, .aq4, .aq5, .aq6{
+  width: 100%;
+  height: 5rem;
+  margin: .5rem;
+  border-radius: 4rem;
+  padding: .25rem;
+  cursor: pointer;
+  font-size: 2em;
+  border:0.16em solid rgba(255,255,255,0);
+  background-color:cyan;
+  border-color:coral;
+  border-width: thick;
+  font-family: 'Coming Soon', cursive;
+}
+
+.aq7, .aq8, .aq9, .aq10, .aq11, .aq12, .aq13, .aq13, .aq14, .aq15{
+  width: 100%;
+  height: 5rem;
+  margin: .5rem;
+  border-radius: 4rem;
+  padding: .25rem;
+  cursor: pointer;
+  font-size: 2em;
+  border:0.16em solid rgba(255,255,255,0);
+  background-color:cyan;
+  border-color:coral;
+  border-width: thick;
+  font-family: 'Coming Soon', cursive;
+ 
+}
+
+
+.aq1:hover, .aq2:hover, .aq3:hover, .aq4:hover, .aq5:hover, .aq6:hover, .aq7:hover, .aq8:hover, .aq9:hover, .aq10:hover, .aq11:hover, .aq12:hover, .aq13:hover, .aq14:hover, .aq15:hover{
+border-color: navy;
+background-color:seagreen;
+}
+.buttonstyle{
+width: 98%;
+  height: 5rem;
+  margin: .5rem;
+  border-radius: 4rem;
+  padding: .25rem;
+  font-size: 2rem;
+  cursor: pointer;
+  border:0.16em solid rgba(255,255,255,0);
+  background-color:cyan;
+  border-color:coral;
+  border-width: thick;
+  font-family: 'Abril Fatface', cursive;
+}
+.buttonstyle:hover{
+  border-color:steelblue;
+  background-color:yellowgreen;
+}
+.slideshow-container {
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+}
+
+.box {
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 2rem 0 0 2rem;
+  font-size: 9vh;
+  border:teal;
+  border-width: 10px;
+  border-style:groove;
+  color: navy;
+  background-color:lemonchiffon;
+}
+/* 
+.box:hover {
+ color:limegreen;
+ background-color:maroon;
+} */
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.dot {
+  cursor:ew-resize;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+h2 {
+  text-align: center;
+  font-size: larger;
+  
+}
+
+.socials{
+  display:flex;
+  flex-direction: row;
+list-style-type: none;
+}
+
+li {
+  flex-direction: row;
+}
+li a {
+  display: block;
+  text-align: center;
+}
+span {
+  font-size:4em;
+  font-family: 'Special Elite', cursive;
+}
+.Display {
+  font-size:3em;
+  font-family: 'Permanent Marker', cursive;
+  text-align:center;
+  color:tomato;
+  justify-content: space-between;
+}
