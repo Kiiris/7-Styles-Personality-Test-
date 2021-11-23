@@ -28,6 +28,24 @@ let funWords = [
 
 link.className = 'buttonstyle';
 
+const darkMode = () => {
+  let words7 = document.querySelector('.seven');
+  let change = document.querySelector('#dark');
+  let spacebody = document.querySelector('body');
+  if (change.innerText == 'Wooden Mode') {
+    spacebody.className = 'spacebody';
+    box.className = 'spacebox';
+    words7.style.color = 'white';
+    // change.setAttribute = 'wooden';
+    change.innerText = 'SPACE MODE';
+  } else if (change.innerText == 'SPACE MODE') {
+    spacebody.className = 'body';
+    box.className = 'box';
+    words7.style.color = 'black';
+    change.innerText = 'Wooden Mode';
+  }
+};
+
 const aural = (x) => {
   return (Aural += x);
 };

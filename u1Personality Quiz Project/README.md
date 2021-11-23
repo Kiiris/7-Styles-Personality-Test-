@@ -12,19 +12,19 @@ In this rigourous course, I have found that I have constantly needed to adapt an
 ### ***Personality Quiz***
 **Goals and Potential Ideas** 
 
-This particular project may make use of up to 30+ html pages! The user will answer up to 20 questions. Each instance of an answer will navigate to a following similar html webpage and the game will add up all the answers a player inputs and select a personality based on their answers at the end! At the beginning of the quiz there will be a title screen demonstrating the kind of quiz it is and whether they would like to continue. At the end of the quiz it will reveal results based on a score tallied and that will have its own formatting depending on how I decide to lay out the information.
+ The user will answer up to 20 questions. Each instance of an answer will navigate to a following similar html webpage and the game will add up all the answers a player inputs and select a personality based on their answers at the end! At the beginning of the quiz there will be a title screen demonstrating the kind of quiz it is and whether they would like to continue. At the end of the quiz it will reveal results based on a score tallied and that will have its own formatting depending on how I decide to lay out the information.
 
 
 *Objectives:*
 
-- [] Event Listeners for each instance to navigate to the following webpage and for it to track answers 
-- [] Beautiful professional design! I wanted to work on making good styling for this particular project
-- [] Logic for selecting personalities based off of answers chosen
-- [] A progress bar at the top letting player know how much further they are along in the quiz
+- [Check!] Event Listeners for each instance to navigate to the following webpage and for it to track answers 
+- [Check!] Beautiful professional design! I wanted to work on making good styling for this particular project
+- [Check!] Logic for selecting personalities based off of answers chosen
+- [Check!] A progress bar at the top letting player know how much further they are along in the quiz
 
 *Posible Ideas:*
-- [] Dark mode event listener which will affect ALL html pages 
-- [] Hover effect on answers that will make the design look more stylized
-- [] Links at the end that allow user to share their personality on social media! 
+- [] Dark mode event listener which will affect the entire screen (Added! *Toggleable!)
+- [] Hover effect on answers that will make the design look more stylized (Added!)
+- [] Links at the end that allow user to share their personality on social media! (Added!)
 
 *To be updated as further changes occur..*
