@@ -5,7 +5,7 @@
 *Approval Confirmed!*
 
 ## ***Description***
-In this rigourous course, I have found that I have constantly needed to adapt and be prepared to learn in several different ways to fit my needs to understand the material. What if I told you that in the ways that I have helped myself to learn more information, I can help anyone struggling to understand the best way that can to intake new information. There are 7 classified learning types (visual, aural, verbal, physical, social, and solitary). The goal of my project will help people classify their unique learning style! I will have up to 20 detailed introspective questions in a fun, interactive, and educational web development project! Details below. 
+In this rigourous course, I have found that I have constantly needed to adapt and be prepared to learn in several different ways to fit my needs to understand the material. What if I told you that in the ways that I have helped myself to learn more information, I can help anyone struggling to understand the best way they can to intake new information? There are 7 classified learning types (visual, aural, verbal, physical, social, and solitary). The goal of my project will help people classify their unique learning style! I will have up to 20 detailed introspective questions in a fun, interactive, and educational web development project! Details below. 
 
 ***
 ### ***Goals and Potential Ideas ***
