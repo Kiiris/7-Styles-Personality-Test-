@@ -11,7 +11,7 @@ In this rigourous course, I have found that I have constantly needed to adapt an
 ### ***Goals and Potential Ideas ***
 
 ***
-The user will answer up to 20 questions. Each instance of an answer will navigate to a following similar html webpage and the game will add up all the answers a player inputs and select a personality based on their answers at the end! At the beginning of the quiz there will be a title screen demonstrating the kind of quiz it is and whether they would like to continue. At the end of the quiz it will reveal results based on a score tallied and that will have its own formatting depending on how I decide to lay out the information. 
+The user will answer up to 20 questions. Each instance of an answer will be tracked and tallied to gauge a person's learning style! There are 7 different pages you will come across, with varying information across each. At the beginning of the quiz there will be a title screen demonstrating the kind of quiz it is and whether they would like to continue('Coming!'). At the end of the quiz it will reveal results based on a score tallied and that will have its own formatting depending on how I decide to lay out the information. 
 
 *Objectives:*
 
